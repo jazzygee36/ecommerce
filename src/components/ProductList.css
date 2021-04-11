@@ -1,0 +1,40 @@
+.prod{
+    text-align: center;
+    margin-top:3rem;
+    margin-bottom: 3rem;
+}
+.text-blue{
+    color: #0000ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.align-items-center{
+    margin-bottom: 5rem;
+}
+.phone_details{
+    text-align: center;
+}
+
+.img_product{
+    margin-left: 1rem;
+}
+@media(max-width: 765px){
+    .align-items-start{
+        display: block;
+        
+        
+        
+    }
+    .img_product{
+        margin-left: 5rem;
+    }
+    .align-items-center{
+        display: inline;
+        margin-top: 2rem;
+    }
+    .phone_details{
+        
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+

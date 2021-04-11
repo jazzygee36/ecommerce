@@ -1,0 +1,58 @@
+body{
+    background: #f3f3f3;
+}
+.row {
+    margin-top: 4rem;
+}
+.products_title{
+    text-align: center;
+    margin-top: 3rem;
+    color: #0000ff;
+}
+h5{
+        color: #0000ff;
+        font-weight: 500;
+}
+.details__id h4{
+    color: rgb(155, 153, 153);
+}
+.secondary-outline{
+    color:#009ffd ;
+   border: 1.5px solid #009ffd;
+    border-radius: 0.50rem;  
+}
+.secondary-outline:hover{
+    background: transparent;
+    color: #2a2a72;
+}
+.primary-outline{
+    border: 1.5px solid #51518f;
+    color: #51518f;
+    border-radius: 0.50rem;
+    margin-right: 1rem;
+    
+}
+.primary-outline:hover{
+    background: transparent;
+    color: #2a2a72;
+    font-weight: 500;
+    
+
+}
+
+@media(max-width: 765px){
+    .details__id{
+       display: block;  
+       margin-left: 2rem;
+       margin-right: 2rem;
+       margin-bottom: 2rem;
+           
+    }
+    .description{
+        display: inline;
+        color: #868383;
+        
+        line-height: 1.7rem;
+        
+    }
+}
