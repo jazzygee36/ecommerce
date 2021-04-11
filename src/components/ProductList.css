@@ -17,6 +17,13 @@
 .img_product{
     margin-left: 1rem;
 }
+.img_product:hover{
+    opacity: 200%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05) translateZ(0);
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
 @media(max-width: 765px){
     .align-items-start{
         display: block;
